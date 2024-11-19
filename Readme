@@ -3,7 +3,7 @@ Development and validation of advanced driver assistance (ADAS) features like Fo
 There are automotive software development guidelines and safety critical aspects involved in the process of applying GenAI techniques in core automotive domains software development, validation and embedded porting.
 
 Challenges:
-Develop innovative GenAI based solutions to accelerate software development for ADAS feature, speci cally FCW function source code development & showcase the working demo:
+Develop innovative GenAI based solutions to accelerate software development for ADAS feature, specifically FCW function source code development & showcase the working demo:
  • Code generation: Use a GenAI tool to generate source code and test cases for FCW.
  • Compliance: Code must be compliant to automotive regulations such as MISRA/ ASPICE/ functional safety.
  • Validation: Test the functionality of source code generated using test cases and demonstrate the working system.
