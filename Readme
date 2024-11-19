@@ -1,0 +1,41 @@
+ Problem
+ Development and validation of advanced driver assistance (ADAS) features like Forward Collision Warning (FCW) is complex 
+and time consuming. Industry is witnessing cutting edge solutions like Generative Arti cial Intelligence (GenAI) being used 
+for accelerating software development lifecycle, optimizing the e orts and assuring an early start of production. There are 
+automotive software development guidelines and safety critical aspects involved in the process of applying GenAI 
+techniques in core automotive domains software development, validation and embedded porting.
+ Challenge
+ Develop innovative GenAI based solutions to accelerate software development for ADAS feature, speci cally FCW function 
+source code development & showcase the working demo:
+ • Code generation: Use a GenAI tool to generate source code and test cases for FCW.
+ • Compliance: Code must be compliant to automotive regulations such as MISRA/ ASPICE/ functional safety.
+ • Validation: Test the functionality of source code generated using test cases and demonstrate the working system.
+ • Strategy: Object detection part of FCW can be implemented using AI ML or conventional techniques. Generating source 
+code for AI ML techniques using GenAI might be complex. Training the ML model is normally done manually in a supervised 
+manner.
+ • Accuracy: Generated source codes should be accurate in object detection as well as enabling FCW function.
+ • Requirements: A set of system requirements for the FCW feature shall be the input of the GenAI based framework. The 
+generated source codes should satisfy the input requirements. Generated test cases should have su cient test coverage 
+against the requirements. The test cases when executed on the source code, should provide pass test results.
+ Evaluation Criteria
+ • E ectiveness: The ability of your solution to e ectively detect objects in front and provide collision warning. How e cient 
+was your GenAI based code and test case generation when compared manual way of doing the same? Can you list down 
+some KPIs like time, cost, e ort savings?
+ • Reliability: The consistency and accuracy of your solution under various conditions.
+ • Scalability: The ability of your solution to be scaled for another ADAS feature with ease. Can this framework be used for any 
+other automotive application source code and test case development with ease? How have to assured scalability of your 
+solution.
+ • Usability: The ease of use and integration of your solution into existing ADAS system. How easy is for an end user to use 
+this solution to generate source code and test cases?
+ • Innovation: The originality and creativity of your approach.
+Potential Approaches:
+ • GenAI for code generation: Use API-based or open-source GenAI tool and apply techniques such as prompt 
+engineering/in-context learning/RAG/ ne tuning to obtain error-free codes and test cases from the given requirements of 
+the application. Sample code snippets, guidelines, requirements etc. can be given as the context.
+ • Stages of FCW: The application involves several stages like image acquisition, image processing, object detection and 
+decision making. The generated code can utilize the library functions of OpenCV / YOLO for realizing these stages.
+ • Working Implementation: The generated code can be compiled and executed in a simulation environment. Tools like 
+CARLA / GAZEBO can be used for scenario creation and camera simulation.
+ • Performance comparison: The accuracy and e ciency of multiple LLMs can be compared for the codes and test cases 
+generated from the same requirements. Suitable KPIs can be dened and employed to measure the performance.
+ By addressing this pressing challenge, you can contribute to the e cient development of ADAS systems for safe driving
